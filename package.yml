@@ -1,0 +1,27 @@
+name       : n1
+version    : 0.3.32
+release    : 1
+source     :
+    - https://edgehill.s3-us-west-2.amazonaws.com/0.3.32-b11131d/linux/x64/N1.deb : 9acee6b5cb3bd962f217af9e315d65d879532ba09e014ac874a07b3ddcaa35f4
+license    : GPL-3.0
+summary    : N1 Email Client
+description: |
+    An extensible mail client built on the modern web. 
+rundeps  :
+    - libgtk-2
+    - libgnome-keyring
+    - desktop-file-utils
+    - python
+    - gconf
+    - nodejs
+    - libnotify
+    - libxtst
+    - libnss
+    - alsa-lib
+extract    : no
+setup      : |
+    ar x $sources/N1.deb
+    tar xf data.tar.gz
+install    : |
+    mkdir -p %installroot%
+    cp -r usr %installroot%/

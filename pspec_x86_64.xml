@@ -1,0 +1,50 @@
+<PISI>
+    <Source>
+        <Name>n1</Name>
+        <Packager>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <Summary xml:lang="en">N1 Email Client</Summary>
+        <Description xml:lang="en">An extensible mail client built on the modern web. 
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>n1</Name>
+        <Summary xml:lang="en">N1 Email Client</Summary>
+        <Description xml:lang="en">An extensible mail client built on the modern web. 
+</Description>
+        <PartOf>network.mail</PartOf>
+        <RuntimeDependencies>
+            <Dependency>libgtk-2</Dependency>
+            <Dependency>libgnome-keyring</Dependency>
+            <Dependency>desktop-file-utils</Dependency>
+            <Dependency>python</Dependency>
+            <Dependency>gconf</Dependency>
+            <Dependency>nodejs</Dependency>
+            <Dependency>libnotify</Dependency>
+            <Dependency>libxtst</Dependency>
+            <Dependency>libnss</Dependency>
+            <Dependency>alsa-lib</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/lintian</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="data">/usr/share/nylas</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-12-31</Date>
+            <Version>0.3.32</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
