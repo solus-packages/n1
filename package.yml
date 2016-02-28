@@ -1,8 +1,8 @@
 name       : n1
-version    : 0.4.5
-release    : 2
+version    : 0.4.10
+release    : 3
 source     :
-    - https://github.com/nylas/N1/releases/download/0.4.5/N1-0.4.5.deb : 892afe593631ea485fa327e5db4fc8bec316574edd00002fab0758107f835c74
+    - https://github.com/nylas/N1/releases/download/0.4.10/N1-0.4.10.deb : 2f83bc7100c2378602d0859b7ad6d3244398afe9ee0ee737116cedad7c48290d
 license    : GPL-3.0
 summary    : N1 Email Client
 description: |
