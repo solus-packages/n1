@@ -1,10 +1,11 @@
 name       : n1
-version    : 0.4.14
-release    : 4
+version    : 0.4.19
+release    : 5
 source     :
-    - https://github.com/nylas/N1/releases/download/0.4.14/N1-0.4.14.deb : 8496e58ba8d439ac4cd797d7df742b3ce40b82bbca58ace8340b0a1cbe8ee66f
+    - https://github.com/nylas/N1/releases/download/0.4.19/N1-0.4.19.deb : 10c28990294fffb934856869863feb22b0c81f6ee3bac2fd29d667b37847d8ec
 license    : GPL-3.0
 summary    : N1 Email Client
+component  : network.mail
 description: |
     An extensible mail client built on the modern web. 
 rundeps  :
