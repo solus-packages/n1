@@ -1,8 +1,8 @@
 name       : n1
-version    : 0.4.45
-release    : 8
+version    : 0.4.47
+release    : 9
 source     :
-    - https://github.com/nylas/N1/releases/download/0.4.45/N1-0.4.45.deb : 50be9402670bf21df69dc5c294a745a07324e5248aafe03fa97228113e0796f8
+    - https://github.com/nylas/N1/releases/download/0.4.47/N1-0.4.47.deb : d9aeb394718413773da6a0f09a953174d60c853084a60747012aaa40f0471089
 license    : GPL-3.0
 summary    : N1 Email Client
 component  : network.mail

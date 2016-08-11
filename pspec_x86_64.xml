@@ -2,8 +2,8 @@
     <Source>
         <Name>n1</Name>
         <Packager>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>network.mail</PartOf>
@@ -108,7 +108,7 @@
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/en_US.aff</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/en_US.dic</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/sqlite3/build/Release/node_sqlite3.node</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/sqlite3/lib/binding/electron-v1.1-linux-x64/node_sqlite3.node</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/sqlite3/lib/binding/electron-v1.2-linux-x64/node_sqlite3.node</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/windows-shortcuts/README.md</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/windows-shortcuts/lib/shortcut/ReadMe.txt</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/windows-shortcuts/lib/shortcut/Shortcut.exe</Path>
@@ -200,7 +200,6 @@
             <Path fileType="data">/usr/share/nylas/resources/app/apm/node_modules/balanced-match/index.js</Path>
             <Path fileType="data">/usr/share/nylas/resources/app/apm/node_modules/balanced-match/package.json</Path>
             <Path fileType="data">/usr/share/nylas/resources/app/apm/node_modules/brace-expansion/README.md</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app/apm/node_modules/brace-expansion/example.js</Path>
             <Path fileType="data">/usr/share/nylas/resources/app/apm/node_modules/brace-expansion/index.js</Path>
             <Path fileType="data">/usr/share/nylas/resources/app/apm/node_modules/brace-expansion/package.json</Path>
             <Path fileType="data">/usr/share/nylas/resources/app/apm/node_modules/camelcase/index.js</Path>
@@ -2949,12 +2948,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="8">
-            <Date>2016-06-15</Date>
-            <Version>0.4.45</Version>
+        <Update release="9">
+            <Date>2016-08-11</Date>
+            <Version>0.4.47</Version>
             <Comment>Packaging update</Comment>
-            <Name>Justin Zobel</Name>
-            <Email>justin@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
