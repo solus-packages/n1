@@ -1,23 +1,23 @@
 name       : n1
-version    : 0.4.47
-release    : 9
+version    : 0.4.51
+release    : 10
 source     :
-    - https://github.com/nylas/N1/releases/download/0.4.47/N1-0.4.47.deb : d9aeb394718413773da6a0f09a953174d60c853084a60747012aaa40f0471089
+    - https://github.com/nylas/N1/releases/download/0.4.51/N1-0.4.51.deb : bafc31dd7132a95c43b41c7af4a550a2e701a292d1ecf77adeeaad679d2ad1a4
 license    : GPL-3.0
 summary    : N1 Email Client
 component  : network.mail
-description: "An extensible mail client built on the modern web. \n"
+description: An extensible mail client built on the modern web.
 rundeps    :
-    - libgtk-2
-    - libgnome-keyring
-    - desktop-file-utils
-    - python
-    - gconf
-    - nodejs
-    - libnotify
-    - libxtst
-    - libnss
     - alsa-lib
+    - desktop-file-utils
+    - gconf
+    - libgnome-keyring
+    - libgtk-2
+    - libnotify
+    - libnss
+    - libxtst
+    - nodejs
+    - python
 extract    : no
 setup      : |
     ar x $sources/N1-${version}.deb
