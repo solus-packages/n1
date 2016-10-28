@@ -28,6 +28,8 @@
             <Path fileType="data">/usr/share/lintian/overrides/nylas</Path>
             <Path fileType="data">/usr/share/nylas/LICENSE</Path>
             <Path fileType="data">/usr/share/nylas/LICENSES.chromium.html</Path>
+            <Path fileType="data">/usr/share/nylas/blink_image_resources_200_percent.pak</Path>
+            <Path fileType="data">/usr/share/nylas/content_resources_200_percent.pak</Path>
             <Path fileType="data">/usr/share/nylas/content_shell.pak</Path>
             <Path fileType="data">/usr/share/nylas/icudtl.dat</Path>
             <Path fileType="data">/usr/share/nylas/libffmpeg.so</Path>
@@ -90,23 +92,19 @@
             <Path fileType="data">/usr/share/nylas/nylas</Path>
             <Path fileType="data">/usr/share/nylas/resources/LICENSE.md</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/better-sqlite3/build/Release/better_sqlite3.node</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/electron-spellchecker/node_modules/@paulcbetts/cld/build/Release/cld.node</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/electron-spellchecker/node_modules/@paulcbetts/spellchecker/build/Release/spellchecker.node</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/electron-spellchecker/node_modules/@paulcbetts/spellchecker/vendor/hunspell_dictionaries/README.txt</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/electron-spellchecker/node_modules/@paulcbetts/spellchecker/vendor/hunspell_dictionaries/en-US.bdic</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/electron-spellchecker/node_modules/keyboard-layout/build/Release/keyboard-layout-manager.node</Path>
+            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/electron-spellchecker/node_modules/spawn-rx/vendor/jobber/Jobber.exe</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/emoji-data/vendor/emoji-data/README.md</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/emoji-data/vendor/emoji-data/emoji.json</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/keytar/build/Release/keytar.node</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/nslog/build/Release/nslog.node</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/runas/build/Release/runas.node</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/LICENSE.md</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/README.md</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/build/Release/hunspell.a</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/build/Release/spellchecker.node</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/lib/spellchecker.js</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/package.json</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/README.txt</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/en_US.aff</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/spellchecker/vendor/hunspell_dictionaries/en_US.dic</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/sqlite3/build/Release/node_sqlite3.node</Path>
-            <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/sqlite3/lib/binding/electron-v1.2-linux-x64/node_sqlite3.node</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/windows-shortcuts/README.md</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/windows-shortcuts/lib/shortcut/ReadMe.txt</Path>
             <Path fileType="data">/usr/share/nylas/resources/app.asar.unpacked/node_modules/windows-shortcuts/lib/shortcut/Shortcut.exe</Path>
@@ -2941,14 +2939,16 @@
             <Path fileType="data">/usr/share/nylas/resources/app/apm/templates/theme/styles/syntax-variables.less</Path>
             <Path fileType="data">/usr/share/nylas/resources/electron.asar</Path>
             <Path fileType="data">/usr/share/nylas/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/nylas/ui_resources_200_percent.pak</Path>
             <Path fileType="data">/usr/share/nylas/version</Path>
+            <Path fileType="data">/usr/share/nylas/views_resources_200_percent.pak</Path>
             <Path fileType="data">/usr/share/pixmaps/nylas.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2016-09-04</Date>
-            <Version>0.4.51</Version>
+        <Update release="11">
+            <Date>2016-10-28</Date>
+            <Version>0.4.59</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
